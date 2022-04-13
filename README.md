@@ -26,6 +26,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Tecnologías Aplicadas
+    - Angular Material `https://material.angular.io/`
+    - Angular Flex-Layout `https://www.npmjs.com/package/@angular/flex-layout`
+    - Servidor JSON `https://www.npmjs.com/package/json-server` instalar de manera global en cualquier Sistema Operativo
+    - Base de Datos `https://gist.github.com/Klerith/403c91e61d3c87284beb0dd138619958` descargar.
+        - Colocar en una carpeta el archivo .json y ejecutar el siguiente comando en la terminal json-server --watch db.json
+    - Descargar Imagenes
+    - Tipado para nuestra Data https://app.quicktype.io/
+
+
 ## Repaso:
 Para realizar un modulo de rutas, es importante poner el --flat al ultimo para no generar una carpeta por ejemplo:
  ng g m appRouting --flat.
+
+## Crear un pipe en consola:
+ng g pipe heroes/pipes/imagen --skip-Tests  ('imagen' es el nombre del pipe)
