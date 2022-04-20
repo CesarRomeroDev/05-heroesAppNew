@@ -9,7 +9,7 @@
             <h3>Buscador</h3>
             <mat-form-field class="example-full-width" appearance="fill">
                 <mat-label>Nombre Héroe</mat-label>
-                <input type="text" placeholder="ejemplo: Batman" aria-label="Number" matInput [(ngModel)]="termino"
+                <input type="text" placeholder="" aria-label="Number" matInput [(ngModel)]="termino"
                     [matAutocomplete]="auto" (input)="buscando()">
                 <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete"
                     (optionSelected)="opcionSeleccionada($event)">
