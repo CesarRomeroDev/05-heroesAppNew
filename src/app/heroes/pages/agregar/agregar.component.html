@@ -37,7 +37,7 @@
         <div fxLayout>
             <button mat-raised-button color="primary" (click)="guardar()">
                 <mat-icon>edit</mat-icon>
-                {{ ( heroe.id)? 'Actualizar': 'Editar' }}
+                {{ ( heroe.id)? 'Actualizar': 'Agregar' }}
             </button>
             <span class="spacer"></span>
             <button *ngIf="heroe.id" mat-raised-button color="warn" (click)="borrarHeroe()">

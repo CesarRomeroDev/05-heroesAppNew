@@ -18,3 +18,7 @@
 # add [22-04-2022]
 
     - Fin de la Seccion 14
+
+# add [25-04-2022]
+
+    - fin de la seccion 15 heroes app
